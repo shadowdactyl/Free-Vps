@@ -3,4 +3,4 @@
 $user = App\Models\User::findOrFail(1);
 
 
-$user->password = Illuminate\Support\Facades\Hash::make('ՔՈ_ՆՈՐ_ԳԱՂՏՆԱԲԱՌԸ');
+$user->password = Illuminate\Support\Facades\Hash::make('admin1234');
